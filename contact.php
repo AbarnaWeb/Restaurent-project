@@ -115,7 +115,7 @@
 <body>
     <div class="contact-section">
         <div class="contact-info">
-            <div><i class="fa fa-map-marker"></i>Address, City, Country</div>
+            <div><i class="fa fa-map-marker"></i>Add, City, Country</div>
             <div><i class="fa fa-envelope"></i>Contact@email.com</div>
             <div><i class="fa fa-phone"></i>+00 0000 000 000</div>
             <div><i class="fa fa-clock-o"></i>Mon-Sat: 11AM - 23PM</div>
