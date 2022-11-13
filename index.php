@@ -8,19 +8,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
-<style>
-body  {
-  /* background-image: url("image/hero-bg.jpg"); */
-  
-}
-</style>
+
 <body>
     <div class="top-bar">
         <div class="contact-info">
-            <i class="fa fa-mobile-phone" style="font-size:20px;color:red"><span style="color:blue;font-size: 15px" >9626650161</sapn></i>
-            <i class="fa fa-clock-o" style="font-size:20px;color:red"><span style="color: blue;font-size: 15px">Mon-Sat: 11AM - 23PM</sapn></i>
+            <i class="fa fa-mobile-phone" style="font-size:20px;color:black"><span style="color:black;font-size: 15px" >9626650161</sapn></i>
+            <i class="fa fa-clock-o" style="font-size:20px;color:black"><span style="color: black;font-size: 15px">Mon-Sat: 11AM - 23PM</sapn></i>
         </div>
         <div class="nav-bar">
        
@@ -39,12 +33,12 @@ body  {
             </ul>
         </div>
         <section>
-            <div class="">
-                <h1>Welcome to <span  style="color: #cda45e">Restaurantly</span></h1>          
-                <h2>Delivering great food for more than 18 years!</h2>
+            <div class="heading">
+                <p>Welcome to <span  style="color: red">Restaurantly</span><br></p>          
+                <!-- <h4>Delivering great food for more than 18 years!</h4>  -->
             </div>
-            <button class="button" href="">Menu</button>
-            <button class="button" href="">Book A Table</button>
+            <button class="button" href="">Our Menu</button>
+            <button class="button1" href="">Book A Table</button>
         </section>
     </div>
 </body>
