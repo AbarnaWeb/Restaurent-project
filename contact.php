@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact</title>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -18,7 +19,7 @@
         font-family: "Poppins",sans-serif;
     }
     body{
-        background-color: #000;
+        background-color: black;
         min-height: 100vh;
        
         background-size: cover;
@@ -52,7 +53,9 @@
     }
     .contact-form h2{
         color: #fff;
-        text-align: center;
+        /* margin-right: 95%; */
+
+        /* text-align: center; */
         font-size: 35px;
         text-transform: uppercase;
         margin-bottom: 30px;
@@ -67,14 +70,29 @@
         font-size: 15px;
         text-align: center;
         border-radius: 5px;
-        border: 1px solid orange;
+        border: 1px solid #EDBF69;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
         margin-bottom: 20px;
         opacity: 0.9;
     }
-    .contact-form .text-box:first-child{
-        margin-right:15px;
+    .contact-form .text{
+        background: transparent;
+        color: #fff;
+        border: none;
+        width: calc(112% - 80px);
+        height: 50px;
+        padding: 15px;
+        font-size: 15px;
+        /* text-align: center; */
+        border-radius: 5px;
+        border: 1px solid #EDBF69;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        opacity: 0.9;
     }
+    /* .contact-form .text-box:first-child{
+        margin-right:15px;
+    } */
     .contact-form textarea{
         background: none;
         color: #fff;
@@ -82,28 +100,28 @@
         width: 80%;
         padding: 12px;
         font-size: 15px;
-        min-height: 200px;
-        max-height: 400px;
+        /* min-height: 200px;
+        max-height: 400px; */
         resize: vertical;
-        border: 1px solid orange;
+        border: 1px solid #EDBF69;
         border-radius: 5px;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
         margin-bottom: 20px;
         opacity: 0.9;
     }
     .contact-form .send-btn{
-        float: right;
-        background: #2E94E3;
+        float: left;
+        background: #EDBF69;
         color: #fff;
-        border: none;
-        width: 40%;
+        /* border: none; */
+        width: 30%;
         height: 40px;
-    
-        font-size: 15px;
+        
+        font-size: 18px;
         font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 2px;
-        border-radius: 5px;
+        border-radius: 20px;
         cursor: pointer;
         transition: 0.3s;
         transition-property: background;
@@ -111,8 +129,44 @@
     .contact-form .send-btn:hover{
         background: #0582E3;
     }
+    .contact-form .back-btn{
+        float: right;
+        background: transparent; 
+        color: #ffffff;
+        /* border: none; */
+        width: 14%;
+        height: 45px;
+        border: 1px solid #EDBF69;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: uppercase;
+        /* letter-spacing: 2px; */
+        border-radius: 30px;
+        cursor: pointer;
+        transition: 0.3s;
+        transition-property: background;
+    }
+    .contact-form .back-btn:hover{
+        background: #EDBF69;
+    }
 </style>
 <body>
+<!-- <div class="nav-bar">
+       
+       <ul>
+           <li> <h2 class="left">Restaurantly</h2></li>
+           <div class="right">
+          
+               <li><a class="" href="#home">Home</a></li>
+               <li><a href="about.php">About</a></li>
+               <li><a href="contact.php">Contact Us</a></li>
+               <li><a href="#admin">Admin</a></li>
+               
+               
+           </div>
+           
+       </ul>
+   </div> -->
     <div class="contact-section">
         <div class="contact-info">
             <div><i class="fa fa-map-marker"></i>Add, City, Country</div>
@@ -125,9 +179,10 @@
             <form class="contact" action="" method="post">
                 <input type="text" name="name" class="text-box" placeholder="Your Name" required>
                 <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+                <input type="text" name="subject" class="text" placeholder="subject"  required>
                 <textarea name="message" rows="5" placeholder="Message" required></textarea>
                 <input type="submit" name="submit" class="send-btn" value="Send">
-
+                <input type="submit" name="submit" class="back-btn" value="back">
             </form>
         <div>
     </div>
