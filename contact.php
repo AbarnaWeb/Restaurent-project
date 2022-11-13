@@ -75,6 +75,9 @@
         margin-bottom: 20px;
         opacity: 0.9;
     }
+    .contact-form .text-box:focus{
+        outline: none;
+    }
     .contact-form .text{
         background: transparent;
         color: #fff;
@@ -89,6 +92,9 @@
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
         margin-bottom: 20px;
         opacity: 0.9;
+    }
+    .contact-form .text:focus{
+        outline: none;
     }
     /* .contact-form .text-box:first-child{
         margin-right:15px;
@@ -108,6 +114,9 @@
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
         margin-bottom: 20px;
         opacity: 0.9;
+    }
+    .contact-form textarea:focus{
+        outline: none;
     }
     .contact-form .send-btn{
         float: left;
@@ -149,6 +158,7 @@
     .contact-form .back-btn:hover{
         background: #EDBF69;
     }
+    
 </style>
 <body>
 <!-- <div class="nav-bar">

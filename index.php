@@ -24,7 +24,7 @@
                     <li><a class="" href="#home">Home</a></li>
                     <li><a href="about.php">About</a></li>
                     <li><a href="contact.php">Contact Us</a></li>
-                    <li><a href="#admin">Admin</a></li>
+                    <li><a href="admin.php">Admin</a></li>
                     
                     
                 </div>
