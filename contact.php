@@ -192,8 +192,9 @@
                 <input type="text" name="subject" class="text" placeholder="subject"  required>
                 <textarea name="message" rows="5" placeholder="Message" required></textarea>
                 <input type="submit" name="submit" class="send-btn" value="Send">
-                <input type="submit" name="submit" class="back-btn" value="back">
+                
             </form>
+            <input type="submit" href="index.php" name="submit" class="back-btn" value="back" >
         <div>
     </div>
 </body>
