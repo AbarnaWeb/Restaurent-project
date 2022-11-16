@@ -39,7 +39,7 @@
                 <!-- <h4>Delivering great food for more than 18 years!</h4>  -->
             </div>
             <button class="button" href="">Our Menu</button>
-            <button class="button1" href="">Book A Table</button>
+            <a href="table.php"><button class="button1" href="">Book A Table</button></a>
         </section>
     </div>
 </body>

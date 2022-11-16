@@ -33,8 +33,10 @@
            <li> <h2 class="left">Restaurantly</h2></li>
            <div class="right">
           
-               <li><a class="" href="index.php">Home</a></li>
+           <li><a class="" href="index.php">Home</a></li>
                <li><a href="about.php">About</a></li>
+               <li><a href="">Chef</a></li>
+               <li><a href="">Gallery</a></li>
                <li><a href="contact.php">Contact Us</a></li>
                <li><a href="admin.php">Admin</a></li>
                

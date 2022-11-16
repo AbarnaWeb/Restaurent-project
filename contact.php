@@ -23,12 +23,63 @@
         min-height: 100vh;
        
         background-size: cover;
-        display: flex;
+        /* display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
     }
+    .nav-bar ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333333;
+    color: white;
+    opacity: 0.7;
+}
+.nav-bar ul li{
+  
+    display: inline-block;
+    font-weight:bold;
+    color: white;
+    
+}
+.right{
+    float: right;
+    padding: 20px;
+}
+.left{
+    float: left;
+}
+li a{
+    display: inline;
+    color: white; 
+    text-decoration: none;
+    text-align: center;
+    float:inline-end;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right:25px;
+}
+li h2{
+    margin: 15px;
+    margin-right: 15px;
+    font-family:'Courier New', Courier, monospace;
+    
+    
+} 
+.a {
+    color: #cda45e;
+    text-decoration: none;
+}
+  
+li a:hover {
+    color: #d9ba85;
+    text-decoration: none;
+    
+  }
+
     .contact-section{
         width: 100%;
+        margin-top: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -161,22 +212,24 @@
     
 </style>
 <body>
-<!-- <div class="nav-bar">
+<div class="nav-bar">
        
-       <ul>
-           <li> <h2 class="left">Restaurantly</h2></li>
-           <div class="right">
-          
-               <li><a class="" href="#home">Home</a></li>
-               <li><a href="about.php">About</a></li>
-               <li><a href="contact.php">Contact Us</a></li>
-               <li><a href="#admin">Admin</a></li>
+            <ul>
+                <li> <h2 class="left">Restaurantly</h2></li>
+                <div class="right">
                
-               
-           </div>
-           
-       </ul>
-   </div> -->
+                    <li><a class="" href="index.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="">Chef</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
+                    <li><a href="admin.php">Admin</a></li>
+                    
+                    
+                </div>
+                
+            </ul>
+        </div>
     <div class="contact-section">
         <div class="contact-info">
             <div><i class="fa fa-map-marker"></i>Add, City, Country</div>

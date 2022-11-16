@@ -18,11 +18,76 @@
         min-height: 100vh;
        
         background-size: cover;
-        display: flex;
+        /* display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
     }
-    .text-box{
+    
+    .nav-bar ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333333;
+    color: white;
+    opacity: 0.7;
+}
+.nav-bar ul li{
+  
+    display: inline-block;
+    font-weight:bold;
+    color: white;
+    
+}
+.right{
+    float: right;
+    padding: 20px;
+}
+.left{
+    float: left;
+}
+li a{
+    display: inline;
+    color: white; 
+    text-decoration: none;
+    text-align: center;
+    float:inline-end;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right:25px;
+    
+}
+li h2{
+    margin: 15px;
+    margin-top: 12px;
+    margin-right: 15px;
+    font-family: 'Courier New', Courier, monospace;
+} 
+.a {
+    color: #cda45e;
+    text-decoration: none;
+
+}
+  
+li a:hover {
+    color: #d9ba85;
+    text-decoration: none;
+  }
+  /* h6{
+    color: white;
+    margin-left: 45px;
+    margin-top:50px;
+  } */
+  h1{
+        color: #cda45e;
+        text-align: center;
+        /* margin-left: 45px; */
+        margin-top:50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 700;
+        font-size:40px;
+    }
+
+     .text-box{
         background: transparent;
         color: #fff;
         border: none;
@@ -30,11 +95,12 @@
         height: 50px;
         padding: 15px;
         font-size: 15px;
-        /* text-align: center; */
+        
         border-radius: 0;
         border: 1px solid #EDBF69;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
         margin-bottom: 20px;
+        margin-top: 40px;
         margin-left: 35px;
         opacity: 0.9;
     }
@@ -49,7 +115,7 @@
         height: 150px;
         padding: 15px;
         font-size: 15px;
-        /* text-align: center; */
+        
         border-radius: 5px;
         border: 1px solid #EDBF69;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -64,7 +130,7 @@
         float: left;
         background: #EDBF69;
         color: #fff;
-        /* border: none; */
+        
         width: 13%;
         height: 40px;
         margin-left: 35px;
@@ -85,7 +151,7 @@
         float: right;
         background: #EDBF69; 
         color: #ffffff;
-        /* border: none; */
+        
         width: 10%;
         height: 36px;
         border: 1px solid #EDBF69;
@@ -104,8 +170,27 @@
     }
 </style>
 <body>
+<div class="nav-bar">
+       
+       <ul>
+           <li> <h2 class="left">Restaurantly</h2></li>
+           <div class="right">
+          
+               <li><a class="" href="index.php">Home</a></li>
+               <li><a href="about.php">About</a></li>
+               <li><a href="">Chef</a></li>
+               <li><a href="">Gallery</a></li>
+               <li><a href="contact.php">Contact Us</a></li>
+               <li><a href="admin.php">Admin</a></li>
+               
+               
+           </div>
+           
+       </ul>
+   </div>
 <div class="contact-form">
-            <h2>Book A Table</h2>
+            <!-- <h6>Reservation_________</h6> -->
+            <h1>Book a Table</h1>
             <form class="contact" action="" method="post">
                 <input type="text" name="name" class="text-box" placeholder="Your Name" required>
                 <input type="email" name="email" class="text-box" placeholder="Your Email" required>
