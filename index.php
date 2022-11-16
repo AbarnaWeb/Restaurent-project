@@ -23,8 +23,8 @@
                
                     <li><a class="" href="#home">Home</a></li>
                     <li><a href="about.php">About</a></li>
-                    <li><a href="">Chef</a></li>
-                    <li><a href="">Gallery</a></li>
+                    <li><a href="chef.php">Chefs</a></li>
+                    <li><a href="gallery.php">Gallery</a></li>
                     <li><a href="contact.php">Contact Us</a></li>
                     <li><a href="admin.php">Admin</a></li>
                     
@@ -38,8 +38,8 @@
                 <p>Welcome to <span  style="color: red">Restaurantly</span><br></p>          
                 <!-- <h4>Delivering great food for more than 18 years!</h4>  -->
             </div>
-            <button class="button" href="">Our Menu</button>
-            <a href="table.php"><button class="button1" href="">Book A Table</button></a>
+            <a href="menu.php"><button class="button">Our Menu</button></a>
+            <a href="table.php"><button class="button1">Book A Table</button></a>
         </section>
     </div>
 </body>

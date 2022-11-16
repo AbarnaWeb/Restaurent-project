@@ -16,7 +16,7 @@
         margin:0;
         padding:0;
         box-sizing:border-box;
-        font-family: "Poppins",sans-serif;
+        
     }
     body{
         background-color: black;
@@ -80,6 +80,7 @@ li a:hover {
     .contact-section{
         width: 100%;
         margin-top: 50px;
+        font-family: "Poppins",sans-serif;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -220,8 +221,8 @@ li a:hover {
                
                     <li><a class="" href="index.php">Home</a></li>
                     <li><a href="about.php">About</a></li>
-                    <li><a href="">Chef</a></li>
-                    <li><a href="">Gallery</a></li>
+                    <li><a href="chef.php">Chefs</a></li>
+                    <li><a href="gallery.php">Gallery</a></li>
                     <li><a href="contact.php">Contact Us</a></li>
                     <li><a href="admin.php">Admin</a></li>
                     
