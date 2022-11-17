@@ -4,9 +4,10 @@ body{
     min-height: 100vh;
    
     background-size: cover;
+
     
 }
-.nav-bar ul{
+.top-bar .nav-bar ul{
     list-style-type: none;
     overflow: hidden;
     background-color: #333333;
@@ -116,3 +117,22 @@ li a:hover {
 .button1:hover{
     background: #EDBF69;
 }
+.container{
+    margin:50px;
+    padding:0;
+}
+h1{
+    color: #cda45e;
+    /* text-align: center; */
+    /* margin-left: 45px; */
+    margin-top:50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size:30px;
+}
+.column {
+    float: left;
+    width: 30.33%;
+    padding: 5px;
+    margin: 13px;
+    }

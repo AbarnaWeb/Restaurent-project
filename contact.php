@@ -248,7 +248,7 @@ li a:hover {
                 <input type="submit" name="submit" class="send-btn" value="Send">
                 
             </form>
-            <input type="submit" href="index.php" name="submit" class="back-btn" value="back" >
+            <a href="table.php"><input type="submit" href="index.php" name="submit" class="back-btn" value="back" ></a>
         <div>
     </div>
 </body>

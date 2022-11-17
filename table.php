@@ -11,7 +11,7 @@
         margin:0;
         padding:0;
         box-sizing:border-box;
-        font-family: "Poppins",sans-serif;
+        /* font-family: "Poppins",sans-serif; */
     }
     body{
         background-color: black;
@@ -200,8 +200,9 @@ li a:hover {
                 <input type="age" id="age" name="age" class="text-box" placeholder="#pepole"  required>
                 <textarea name="message" rows="5" class="text"  placeholder="Message" required></textarea>
                 <input type="submit" name="submit" class="send-btn" value="Book A Table">
-                <input type="submit" name="submit" class="back-btn" value="back">
+                
             </form>
+            <a href="index.php"><input type="submit" name="submit" class="back-btn" value="back"></a>
         <div>
 </body>
 </html>

@@ -42,5 +42,8 @@
             <a href="table.php"><button class="button1">Book A Table</button></a>
         </section>
     </div>
+    
+
+    
 </body>
 </html>
