@@ -1,18 +1,16 @@
-const loginPopup = document.querySelector(".login-popup");
+function validate()
+{
+    var username=document.getElementById("username").value;
+    var password=document.getElementById("password").value;
+    if(username=='abar'&&password=='1234')
+    {
+        alert('login succesfully');
+        return true;
+    }
+    else
+    {
+        alert('login failed');
+        return false;  
+    }
 
-window.addEventListener("load",function(){
-    showPopup();
-})
-
-function showPopup(){
-    const timeLimit =5 //seconds;
-    let i=0;
-    const timer = setInterval(function(){
-        i++;
-        if(i == timeLimit){
-            clearInterval(timer);
-            loginPopup.classList.add("show");
-        }
-        console.log(i)
-    },1000);
 }

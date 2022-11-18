@@ -7,7 +7,7 @@
     <title>Restaurently</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
 <body>
     <div class="top-bar">
@@ -41,9 +41,72 @@
             <a href="menu.php"><button class="button">Our Menu</button></a>
             <a href="table.php"><button class="button1">Book A Table</button></a>
         </section>
+
+    </div>
+
+    <div>
+    
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+
+                
+
+                    <div class="footer-col">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li ><a href="#">Home</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Terms of service</a></li>
+                            <li><a href="#">Praivacy policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><a href="#">Web Design</a></li>
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">Product Management</a></li>
+                            <li><a href="#">Marketing</a></li>
+                            <li><a href="#">Graphic Design</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Follow us</h4>
+                        <h5>RESTAURANTLY</h5>
+                        <!-- <div class="address">
+                        208 South Street<br>
+                        Budalur 613602, Tnj
+                        </div> -->
+                        <div class="link">
+                        Phone: 9626650161<br>
+                        Email: abarmathiyalagan.com
+                        </div>
+                        <div class="social-links">
+                            <ul>
+                                <a hreh=""><i class="fa fa-facebook-square" style="font-size:20px"></i></a>
+                                <a hreh=""><i class="fa fa-twitter-square" style="font-size:20px"></i></a>
+                                <a hreh=""><i class="fa fa-instagram" style="font-size:20px"></i></a>
+                                <a hreh=""><i class="fa fa-youtube-play" style="font-size:20px"></i></a>
+                                <a hreh=""><i class="fa fa-linkedin-square" style="font-size:20px"></i></a>
+                            </ul>
+                        </div>
+                    </div>
+                    
+
+                </div>
+                <div class="copy">
+                © Copyright <span style="color:orange">Restaurantly</span>. All Rights Reserved<br>
+                <h5>Designed by SelfMade</h5>
+                </div>
+            </div>
+        </footer>
     </div>
     
-
+                
     
 </body>
 </html>

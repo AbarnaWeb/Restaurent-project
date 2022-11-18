@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style1.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="login-popup">
@@ -20,20 +21,22 @@
                 <h1>Log In</h1>
                 <form action="index.php" method="Post">
                     <div class="form-group">
-                        <input type="text" id="email" placeholder="Email" class="form-control" required>
+                        <input type="text" id="username" placeholder="Enter Username" class="form-control" required>
                     </div>
                     <div class="form-group">
-                        <input type="password" id="password" placeholder="Password" class="form-control" required>
+                        <input type="password" id="password" placeholder="Enter Password" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label><input type="checkbox">
                             Remember Me
                         </label>
                     </div>
-                    <button type="onclick" value="button"  class="btn" required >Log In</button>
+                    <input type="submit" value="Login"  class="btn" onclick="validate()">
+                    <!-- <button type="submit" value="login"  class="btn" onclick="validate()" >Log In</button> -->
                 </form>
+                
         </div>
     </div>
-    <!-- <script src="script.js"></script> -->
+    
 </body>
 </html>
