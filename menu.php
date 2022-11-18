@@ -26,96 +26,95 @@
            
        </ul>
    </div>
-    <div class="container">
-        <div class="header">
-            <h1>Check Our Tasty Menu</h1>
+    <div class="wrapper">
+        <div class="title">
+            <h4><span> fresh food for good health</span> Our Menu</h4>
         </div>
-        <div class="special">
+        <!-- <div class="special">
             <ul>
                 <li><a  href="#all">All</a></li>
                 <li><a  href="#s1">Starters</a></li>
                 <li><a  href="#s2">Salads</a></li>
                 <li><a  href="#s3">Specialty</a></li>
             </ul>
-        </div>
-    <section class="img-section">
-        <div class="menu-column">
-            <div class="menu-item ">
-                <img src="image/lobster-bisque.jpg" class="menu-img" alt="" style="width:80px">
+        </div> -->
+    
+        <div class="menu">
+            <div class="single-menu ">
+                <img src="image/lobster-bisque.jpg"  alt="" style="width:80px">
                 <div class="menu-content">
-                <h5 id="s1">Lobster Bisque</h5><span>$5.95</span>
-                <p>Lorem, deren, trataro, filede, nerada<p>
+                    <h4 >Lobster Bisque<span>$5.95</span></h4>
+                    <p>Lorem, deren, trataro, filede, nerada<p>
                 </div>
             </div>
-            <div class="menu-item">
-                <img src="image/bread-barrel.jpg" class="menu-img" alt="" style="width:80px">
+            <div class="single-menu">
+                <img src="image/bread-barrel.jpg"" alt="" style="width:80px">
                 <div class="menu-content">
-                <h5 id="s3">Bread Barrel</h5><span>$6.95</span>
-                <p>Lorem, deren, trataro, filede, nerada<p>
+                    <h4>Bread Barrel<span>$6.95</span></h4>
+                    <p>Lorem, deren, trataro, filede, nerada<p>
                 </div>
           </div>
-        </div>
-        <div class="menu-column">
-          <div class=" menu-item ">
-                <img src="image/cake.jpg" class="menu-img" alt="" style="width:80px">
+        
+        
+          <div class="single-menu ">
+                <img src="image/cake.jpg"  alt="" style="width:80px">
                 <div class="menu-content">
-                <h5 id="s1">Crab Cake</h5><span>$7.95</span>
-                <p>A delicate crab cake served on a toasted roll with lettuce and tartar sauce<p>
+                    <h4>Crab Cake<span>$7.95</span></h5>
+                    <p>A delicate crab cake served on a toasted roll with lettuce and tartar sauce<p>
                 </div>
           </div>
 
-          <div class=" menu-item ">
+          <div class=" single-menu ">
                 <img src="image/caesar.jpg" class="menu-img" alt="" style="width:80px">
                 <div class="menu-content">
-                <h5 id="s2">Caesar Selections</h5><span>$8.95</span>
-                <p>Lorem, deren, trataro, filede, nerada</p>
+                    <h4>Caesar Selections<span>$8.95</span></h4>
+                    <p>Lorem, deren, trataro, filede, nerada</p>
                 </div>
           </div>
-        </div>
-        <div class="menu-column">
-          <div class=" menu-item ">
+        
+        
+          <div class="single-menu">
                 <img src="image/tuscan-grilled.jpg" class="menu-img" alt="" style="width:80px">
                 <div class="menu-content">
-                <h5 id="s3">Tuscan Grilled</h5><span>$9.95</span>
+                <h4>Tuscan Grilled<span>$9.95</span></h4>
                 <p>Grilled chicken with provolone, artichoke hearts, and roasted red pesto</p>
                 </div>
           </div>
 
-          <div class=" menu-item ">
+          <div class=" single-menu ">
                 <img src="image/mozzarella.jpg" class="menu-img" alt="" style="width:80px">
                 <div class="menu-content">
-                <h5 id="s1">Mozzarella Stick</h5><span>$4.95</span>
+                <h4>Mozzarella Stick<span>$4.95</span></h4>
                 <p>Lorem, deren, trataro, filede, nerada</p>
                 </div>
             </div>
-        </div>
-        <div class="menu-column">
-          <div class="menu-item ">
+        
+        
+          <div class="single-menu ">
                 <img src="image/greek-salad.jpg" class="menu-img" alt="" style="width:80px">
                 <div class="menu-content">
-                <h5 id="s2">Greek Salad</h5><span>$9.95</span>
-                Fresh spinach, crisp romaine, tomatoes, and Greek olives
+                    <h4>Greek Salad<span>$9.95</span></h4>
+                    <p>Fresh spinach, crisp romaine, tomatoes, and Greek olives</p>
                 </div>
           </div>
 
-          <div class="menu-item ">
+          <div class="single-menu ">
                 <img src="image/spinach-salad.jpg" class="menu-img" alt="" style="width:80px">
                 <div class="menu-content">
-                <h5 id="s2">Spinach Salad</h5><span>$9.95</span>
-                <p>Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette</p>
+                    <h4>Spinach Salad<span>$9.95</span></h4>
+                    <p>Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette</p>
                 </div>
           </div>
-        </div>
-        <div class="menu-column">
-           <div class="menu-item">
+        
+           <div class="single-menu">
                 <img src="image/lobster-roll.jpg" class="menu-img" alt="" style="width:80px">
                 <div class="menu-content">
-                <h5 id="s3">Lobster Roll</h5><span>$12.95</span>
-                <p>Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll</p>
+                    <h4>Lobster Roll<span>$12.95</span></h4>
+                    <p>Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll</p>
                 </div>
           </div>
         </div>
-    </section>
+    
 </div>
 </body>
 </html>

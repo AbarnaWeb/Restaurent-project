@@ -77,10 +77,10 @@
                     <div class="footer-col">
                         <h4>Follow us</h4>
                         <h5>RESTAURANTLY</h5>
-                        <!-- <div class="address">
+                        <div class="address">
                         208 South Street<br>
                         Budalur 613602, Tnj
-                        </div> -->
+                        </div>
                         <div class="link">
                         Phone: 9626650161<br>
                         Email: abarmathiyalagan.com

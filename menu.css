@@ -5,7 +5,7 @@
     
 }
 body{
-    background-color: black;
+    /* background-color: black; */
     min-height: 100vh;
     background-size: cover;
 
@@ -59,70 +59,88 @@ li a:hover {
     text-decoration: none;
     
   }
-h1{
-    color: #cda45e;
-    /* text-align: center; */
-    margin-left: 65px;
-    margin-top:50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 700;
-    font-size:30px;
-}
-.special ul {
-    list-style-type: none;
-    margin:30px 35% 30px 35% ;
-    
-    
-    
-    /* overflow: hidden; */
-    /* background-color: #333333; */
-  }
-.special ul li{
-    float: left;
-   
-  }
-  li a {
-    display: inline;
-    color: white;
-    text-align: center;
-    padding: 4px;
-    text-decoration: none;
-    /* font-size: 20px;
-    font-weight: 200; */
-  }
-
-.img-section{
+.wrapper{
     font-family: 'Poppins', sans-serif;
+    width: 1200px;
+    margin: 100px auto;
 }
-.img-section{
-    /* width: 1200px; */
-   
-    margin: 60px;
-    padding: 10px;
-    margin-right: 55%;
-   
-    position: relative;
-    display: inline-block;
-}
-.img-section .menu-column{
+.title{
+    text-align: center;
+    margin-bottom: 60px;
     
-    margin: 60px;
-    padding: 10px;
-    margin-right: 55%;
-   
+}
+.title h4{
+    text-transform: capitalize;
+    font-size: 36px;
     position: relative;
     display: inline-block;
-  
-  }
-.menu-item .menu-img{
+    padding-bottom: 10px;
+}
+.title h4 span{
+    display: block;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 3px;
+    
+}
+.title h4:before{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #ff7720;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.single-menu{
+    flex-basis: 580px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+}
+.single-menu:nth-child(5), .single-menu:nth-child(6){
+    border-bottom: 0;
+}
+.single-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.single-menu img{
+    max-width: 180px;
+    margin-right: 30px;
     border-radius: 50%;
-    float: left;
-    
- } 
-.menu-content{
-    
-    color: white;
-    padding: 50px;
-    
+    border: 1px solid #ddd;
+    padding: 3px;
 }
+.single-menu h4{
+    text-transform: capitalize;
+    font-size: 22px;
+    border-bottom: 1px dashed #333;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.single-menu h4 span{
+    float: right;
+    color: #ff7720;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
