@@ -11,11 +11,7 @@
 <body>
     <div class="login-popup">
         <div class="box">
-            <!-- <div class="img-area">
-                <div class="img">
-                </div>
-                <h1>Your Logo</h1>
-            </div> -->
+            
             <div class="form">
                 <div class="close">&times</div>
                 <h1>Log In</h1>

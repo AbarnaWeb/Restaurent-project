@@ -250,6 +250,34 @@ li a:hover {
             </form>
             <a href="table.php"><input type="submit" href="index.php" name="submit" class="back-btn" value="back" ></a>
         <div>
+
+        <?php
+        include_once('include/config.php');
+            if (isset($_POST['submit'])){
+                $name=$_POST['name'];
+                $email=$_POST['email'];
+                $subject=$_POST['subject'];
+                $add=$_POST['message'];
+
+                $sql="INSERT INTO contact(name,email,subject,message)
+                values('$name','$email','$subject','$add')";
+
+                $query=mysqli_query($con,$sql);
+
+                if($query){
+
+                    echo "<script>
+                    
+                    alert('We Will Meet Soon');
+                    
+                    </script>";
+                }
+                else{
+                    echo "Not Submited";
+                }
+            }
+        ?>
+
     </div>
 </body>
 </html>
