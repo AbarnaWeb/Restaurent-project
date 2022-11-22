@@ -103,9 +103,9 @@
                         </div>
                     </div>
                 </div>
-                <hr>
+                <hr>  
                 <div class="copy">
-                ©2022 Copyright <span style="color:orange">Restaurantly</span>. All Rights Reserved<br>
+                ©2022 Copyright <span style="color:orange">Restaurantly Welcome</span>. All Rights Reserved<br>
                 <h5>Designed by SelfMade</h5>
                 </div>
             </div>
