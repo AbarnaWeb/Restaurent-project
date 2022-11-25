@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Table</title>
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="style/footer.css">
 </head>
 <style>
     *{
@@ -130,8 +130,8 @@ li a:hover {
     .send-btn{
         float: left;
         background: #EDBF69;
-        color: #fff;
-        
+        color: #ffffff;
+        border: 1px solid #EDBF69;
         width: 13%;
         height: 40px;
         margin-left: 35px;
@@ -142,8 +142,7 @@ li a:hover {
         border-radius: 20px;
         cursor: pointer;
         transition: 0.3s;
-        transition-property: background;
-        
+        transition-property: background;    
     }
     .send-btn:hover{
         background: #EDBF69;
@@ -154,7 +153,7 @@ li a:hover {
         color: #ffffff;
         
         width: 10%;
-        height: 36px;
+        height: 40px;
         border: 1px solid #EDBF69;
         font-size: 15px;
         font-weight: 100;

@@ -7,9 +7,10 @@
     <title>Restaurently</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="style/footer.css">
 </head>
 <body>
+  
     <div class="top-bar">
         <div class="contact-info">
             <i class="fa fa-mobile-phone" style="font-size:20px;color:black"><span style="color:black;font-size: 15px" >9626650161</sapn></i>
