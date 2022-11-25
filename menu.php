@@ -14,7 +14,7 @@
            <li> <h2 class="left">Restaurantly</h2></li>
            <div class="right">
           
-               <li><a  href="#home">Home</a></li>
+               <li><a  href="index.php">Home</a></li>
                <li><a href="about.php">About</a></li>
                <li><a href="chef.php">Chefs</a></li>
                <li><a href="gallery.php">Gallery</a></li>
@@ -25,19 +25,12 @@
            </div>
            
        </ul>
-   </div>
+</div>
     <div class="wrapper">
         <div class="title">
             <h4><span> fresh food for good health</span> Our Menu</h4>
         </div>
-        <!-- <div class="special">
-            <ul>
-                <li><a  href="#all">All</a></li>
-                <li><a  href="#s1">Starters</a></li>
-                <li><a  href="#s2">Salads</a></li>
-                <li><a  href="#s3">Specialty</a></li>
-            </ul>
-        </div> -->
+        
     
         <div class="menu">
             <div class="single-menu ">
@@ -113,8 +106,12 @@
                     <p>Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll</p>
                 </div>
           </div>
-        </div>
-    
-</div>
+    </div>
+    <!-- <div class="rights">
+                ©2022 Copyright <span style="color:orange">Restaurantly </span>. All Rights Reserved<br>
+                <h5>Designed by SelfMade</h5>
+                </div>        -->
+<!-- </div> -->
+
 </body>
 </html>

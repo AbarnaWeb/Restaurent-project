@@ -94,18 +94,18 @@
                     <div class="footer-col">
                     <div class="social-links">
                             <ul>
-                                <a href="#"><i class="fa fa-facebook-square" style="font-size:20px"></i></a>
-                                <a href="#"><i class="fa fa-twitter-square" style="font-size:20px"></i></a>
-                                <a href="#"><i class="fa fa-instagram" style="font-size:20px"></i></a>
-                                <a href="#"><i class="fa fa-youtube-play" style="font-size:20px"></i></a>
-                                <a href="#"><i class="fa fa-linkedin-square" style="font-size:20px"></i></a>
+                                <a href="#"><i class="fa fa-facebook-square" style="font-size:18px"></i></a>
+                                <a href="#"><i class="fa fa-twitter-square" style="font-size:18px"></i></a>
+                                <a href="#"><i class="fa fa-instagram" style="font-size:18px"></i></a>
+                                <a href="#"><i class="fa fa-youtube-play" style="font-size:18px"></i></a>
+                                <a href="#"><i class="fa fa-linkedin-square" style="font-size:18px"></i></a>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <hr>  
                 <div class="copy">
-                ©2022 Copyright <span style="color:orange">Restaurantly Welcome</span>. All Rights Reserved<br>
+                ©2022 Copyright <span style="color:orange">Restaurantly </span>. All Rights Reserved<br>
                 <h5>Designed by SelfMade</h5>
                 </div>
             </div>

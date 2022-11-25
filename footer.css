@@ -71,24 +71,25 @@
     padding-left: 8px;
 }
 .footer-col .social-links{
-    margin: 50px;
+    margin-left: 312px;
+    padding-top: 150px;
     
 }
 .footer-col .social-links a{
     display: inline-block;
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
     background-color: rgba(255, 255, 255, 0.2);
     margin: 0 10px 10px 0;
     text-align: center;
-    line-height: 40px;
+    line-height: 35px;
     border-radius: 50px;
     color: #ffffff;
     transition: all 0,5s ease;
 }
 .footer-col .social-links a:hover{
     color: #24262b;
-    background-color: #ffffff;
+    background-color: #EDBF69;
 }
 .footer-col h5{
     color: #ffffff;

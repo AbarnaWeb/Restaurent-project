@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Table</title>
+    <link rel="stylesheet" href="footer.css">
 </head>
 <style>
     *{
@@ -14,7 +15,7 @@
         /* font-family: "Poppins",sans-serif; */
     }
     body{
-        background-color: black;
+        background-color: gray;
         min-height: 100vh;
        
         background-size: cover;
@@ -168,27 +169,38 @@ li a:hover {
     .back-btn:hover{
         background: #EDBF69;
     }
+    .copy{
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 0;
+    padding-top: 55px;
+}
+.copy h5{
+    padding-top: 10px;
+    margin-left:20px;  
+}
 </style>
 <body>
-<div class="nav-bar">
-       
-       <ul>
-           <li> <h2 class="left">Restaurantly</h2></li>
-           <div class="right">
-          
-               <li><a class="" href="index.php">Home</a></li>
-               <li><a href="about.php">About</a></li>
-               <li><a href="chef.php">Chefs</a></li>
-               <li><a href="gallery.php">Gallery</a></li>
-               <li><a href="contact.php">Contact Us</a></li>
-               <li><a href="admin.php">Admin</a></li>
-               
-               
-           </div>
-           
-       </ul>
-   </div>
-<div class="contact-form">
+    <div>
+        <div class="nav-bar">
+            
+            <ul>
+                <li> <h2 class="left">Restaurantly</h2></li>
+                <div class="right">
+                
+                    <li><a class="" href="index.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="chef.php">Chefs</a></li>
+                    <li><a href="gallery.php">Gallery</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
+                    <li><a href="admin.php">Admin</a></li>
+                    
+                    
+                </div>
+                
+            </ul>
+        </div>
+        <div class="contact-form">
             <!-- <h6>Reservation_________</h6> -->
             <h1>Book a Table</h1>
             <form class="contact" action="" method="post">
@@ -197,12 +209,55 @@ li a:hover {
                 <input type="tel" id="phone" name="phone" class="text-box" placeholder="Phone Number" pattern="[0-9]{10}" required>
                 <input type="date" id="date" name="date" class="text-box"   required>
                 <input type="time" id="time" name="time" class="text-box" placeholder="Time"  required>
-                <input type="age" id="age" name="age" class="text-box" placeholder="#pepole"  required>
+                <input type="age" id="age" name="pepole" class="text-box" placeholder="#pepole"  required>
                 <textarea name="message" rows="5" class="text"  placeholder="Message" required></textarea>
                 <input type="submit" name="submit" class="send-btn" value="Book A Table">
                 
             </form>
             <a href="index.php"><input type="submit" name="submit" class="back-btn" value="back"></a>
-        <div>
+        </div>
+        <div class="copy">
+                ©2022 Copyright <span style="color:orange">Restaurantly </span>. All Rights Reserved<br>
+                <h5>Designed by SelfMade</h5>
+        </div>
+
+
+        <?php
+
+        include_once('include/config.php');
+            if(isset($_POST['submit'])){
+                $name=$_POST['name'];
+                $email=$_POST['email'];
+                $phone=$_POST['phone'];
+                $date=$_POST['date'];
+                $time=$_POST['time'];
+                $pepole=$_POST['pepole'];
+                $message=$_POST['message'];
+
+                $sql="INSERT INTO  booktable(name,email,phonenumber,date,time,pepole,message)
+                values('$name','$email','$phone','$date','$time','$pepole','$message')";
+
+                    $query=mysqli_query($con,$sql);
+
+                    if($query){
+
+                        echo "<script>
+                        
+                        alert('Your order is submitted successfully!');
+                        
+                        </script>";
+                    }
+                    else{
+                        echo "Your order is not Submited";
+                    }
+            }
+
+
+
+
+        ?>
+    </div>
+
+        
 </body>
 </html>

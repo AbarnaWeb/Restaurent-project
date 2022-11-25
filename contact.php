@@ -155,7 +155,7 @@ li a:hover {
         background: none;
         color: #fff;
         border: none;
-        width: 80%;
+        width: 99%;
         padding: 12px;
         font-size: 15px;
         /* min-height: 200px;
@@ -188,7 +188,7 @@ li a:hover {
         transition-property: background;
     }
     .contact-form .send-btn:hover{
-        background: #0582E3;
+        background:#EDBF69;
     }
     .contact-form .back-btn{
         float: right;
@@ -210,6 +210,16 @@ li a:hover {
     .contact-form .back-btn:hover{
         background: #EDBF69;
     }
+    .copy{
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 0;
+    padding-top: 55px;
+}
+.copy h5{
+    padding-top: 10px;
+    margin-left:20px;  
+}
     
 </style>
 <body>
@@ -248,8 +258,11 @@ li a:hover {
                 <input type="submit" name="submit" class="send-btn" value="Send">
                 
             </form>
-            <a href="table.php"><input type="submit" href="index.php" name="submit" class="back-btn" value="back" ></a>
-        <div>
+            <a href="index.php"><input type="submit" name="submit" class="back-btn" value="back" ></a>
+            
+        </div>
+        
+       
 
         <?php
         include_once('include/config.php');
@@ -279,5 +292,9 @@ li a:hover {
         ?>
 
     </div>
+    <div class="copy">
+                ©2022 Copyright <span style="color:orange">Restaurantly </span>. All Rights Reserved<br>
+                <h5>Designed by SelfMade</h5>
+                </div>
 </body>
 </html>
