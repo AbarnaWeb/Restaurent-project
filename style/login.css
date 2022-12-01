@@ -93,7 +93,7 @@ body{
     float: end; */
 }
 .login-popup .box .form .btn{
-    width: 100%;
+    /* width: 100%;
     background-color: #E91E63;
     margin-top: 40px;
     
@@ -104,7 +104,7 @@ body{
     text-transform: uppercase;
     color: #ffffff;
     cursor: pointer;
-    text-align: center;
+    text-align: center; */
 }
 .login-popup .box .form .btn:focus{
     outline: none;

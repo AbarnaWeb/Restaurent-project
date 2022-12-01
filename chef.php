@@ -85,10 +85,27 @@ li a:hover {
         padding: 5px;
         margin: 13px;
         }
-    .column:hover{
-        
+.information{
+    color:white;
+    margin-left: 30%;
+    font-size: 23px;
+    
+    
 
-    }
+}
+.information h5{
+    /* padding-bottom: 10%; */
+    margin-left: 10px;
+    padding-top: 0;
+    
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+.media{
+    padding-top:0;
+    /* padding-bottom: 100px; */
+    margin-left: 10%;
+}
 </style>
 <body>
 <div class="nav-bar">
@@ -114,17 +131,38 @@ li a:hover {
         <div class="column">
             <img src="image/chefs-1.jpg"  style="width:100%">
             <div class="information">
-                <h4>name</h4>
-                <a href="#"><i class="fa fa-facebook-square" style="font-size:18px"></i></a>
-                <a href="#"><i class="fa fa-twitter-square" style="font-size:18px"></i></a>
-                <a href="#"><i class="fa fa-instagram" style="font-size:18px;color:red"></i></a>
+               <h4>Walter White</h4> 
+                <h5>Master Chef</h5> 
+                <div class="media">
+                    <a href="#"><i class="fa fa-facebook-square" style="font-size:18px;color:#EDBF69"></i></a>
+                    <a href="#"><i class="fa fa-twitter-square" style="font-size:18px;color:#EDBF69"></i></a>
+                    <a href="#"><i class="fa fa-instagram" style="font-size:18px;color:#EDBF69"></i></a>
+                </div>
             </div>
         </div>
         <div class="column">
             <img src="image/chefs-2.jpg"  style="width:100%">
+            <div class="information">
+                <h4 style="margin-left:5%">Sarah Jhonson</h4>
+                <h5 style="margin-left:17%">Patissier</h5>
+                <div class="media">
+                    <a href="#"><i class="fa fa-facebook-square" style="font-size:18px;color:#EDBF69;margin-left: 13%"></i></a>
+                    <a href="#"><i class="fa fa-twitter-square" style="font-size:18px;color:#EDBF69"></i></a>
+                    <a href="#"><i class="fa fa-instagram" style="font-size:18px;color:#EDBF69"></i></a>
+                </div>    
+            </div>
         </div>
         <div class="column">
             <img src="image/chefs-3.jpg"  style="width:100%">
+            <div class="information">
+                <h4>William Anderson</h4>
+                <h5 style="margin-left:29%">Cook</h5>
+                <div class="media">
+                    <a href="#"><i class="fa fa-facebook-square" style="font-size:18px;color:#EDBF69;margin-left: 19%"></i></a>
+                    <a href="#"><i class="fa fa-twitter-square" style="font-size:18px;color:#EDBF69"></i></a>
+                    <a href="#"><i class="fa fa-instagram" style="font-size:18px;color:#EDBF69"></i></a>
+                </div>    
+            </div>
         </div>
     </div>
 </div>
