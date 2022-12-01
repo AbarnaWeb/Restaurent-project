@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="chef.css">
+    <link rel="stylesheet" href="about.css">
    
 </head>
 <body>
@@ -24,8 +26,8 @@
                 <div class="right">
                
                     <li><a class="" href="#home">Home</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="chef.php">Chefs</a></li>
+                    <li><a href="#s0">About</a></li>
+                    <li><a href="#s1">Chefs</a></li>
                     <li><a href="gallery.php">Gallery</a></li>
                     <li><a href="contact.php">Contact Us</a></li>
                     <li><a href="login.php">Admin</a></li>
@@ -48,7 +50,80 @@
 
 
 
-    <div>
+ <section  id="s0">
+    <div class="section">
+        <div class="text">
+            <h1>Voluptatem dignissimos provident quasi<br> corporis voluptates sit assumenda.</h1>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.</h3>
+            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute<br> irure dolor in reprehenderit in 
+                voluptate trideta storacalaperda mastiro<br> dolore eu fugiat nulla pariatur.</p><br>
+            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure<br> 
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla<br> pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa<br> qui 
+                officia deserunt mollit anim id est laborum
+        </div>
+                <img src="image/about.jpg">
+                </p>
+        </div>
+        <!-- <div class="copy">
+                ©2022 Copyright <span style="color:orange">Restaurantly </span>. All Rights Reserved -->
+                <!-- <h5>Designed by SelfMade</h5> -->
+                <!-- </div> -->
+    </div>
+ </section>
+
+
+
+ <section id="s1">
+    <div class="container">
+    <div class="heading">
+        <h1>Our Proffesional Chefs</h1>
+    </div>
+    <div class="image">
+        <div class="column">
+            <img src="image/chefs-1.jpg"  style="width:100%">
+            <div class="information">
+               <h4>Walter White</h4> 
+                <h5>Master Chef</h5> 
+                <div class="media">
+                    <a href="#"><i class="fa fa-facebook-square" style="font-size:18px;color:#EDBF69"></i></a>
+                    <a href="#"><i class="fa fa-twitter-square" style="font-size:18px;color:#EDBF69"></i></a>
+                    <a href="#"><i class="fa fa-instagram" style="font-size:18px;color:#EDBF69"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <img src="image/chefs-2.jpg"  style="width:100%">
+            <div class="information">
+                <h4 style="margin-left:5%">Sarah Jhonson</h4>
+                <h5 style="margin-left:17%">Patissier</h5>
+                <div class="media">
+                    <a href="#"><i class="fa fa-facebook-square" style="font-size:18px;color:#EDBF69;margin-left: 13%"></i></a>
+                    <a href="#"><i class="fa fa-twitter-square" style="font-size:18px;color:#EDBF69"></i></a>
+                    <a href="#"><i class="fa fa-instagram" style="font-size:18px;color:#EDBF69"></i></a>
+                </div>    
+            </div>
+        </div>
+        <div class="column">
+            <img src="image/chefs-3.jpg"  style="width:100%">
+            <div class="information">
+                <h4>William Anderson</h4>
+                <h5 style="margin-left:29%">Cook</h5>
+                <div class="media">
+                    <a href="#"><i class="fa fa-facebook-square" style="font-size:18px;color:#EDBF69;margin-left: 19%"></i></a>
+                    <a href="#"><i class="fa fa-twitter-square" style="font-size:18px;color:#EDBF69"></i></a>
+                    <a href="#"><i class="fa fa-instagram" style="font-size:18px;color:#EDBF69"></i></a>
+                </div>    
+            </div>
+        </div>
+        </div>
+    </div>
+
+ </section>
+    <!-- <div>
     
         <footer class="footer">
             <div class="container">
@@ -114,7 +189,7 @@
                 </div>
             </div>
         </footer>
-    </div>
+    </div> -->
     
                 
     

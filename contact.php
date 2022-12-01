@@ -231,7 +231,7 @@ li a:hover {
                
                     <li><a class="" href="index.php">Home</a></li>
                     <li><a href="about.php">About</a></li>
-                    <li><a href="chef.php">Chefs</a></li>
+                    <li><a href="#s1">Chefs</a></li>
                     <li><a href="gallery.php">Gallery</a></li>
                     <li><a href="contact.php">Contact Us</a></li>
                     <li><a href="admin.php">Admin</a></li>

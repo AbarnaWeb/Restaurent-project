@@ -1,0 +1,29 @@
+.section{
+    background-image: url(image/about-bg.jpg);
+    color:white;
+    display:flex;
+    margin: 15px;
+    
+    padding: 40px;
+    justify-content: space-between;
+}
+.section .text{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.text h1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.text h3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.text p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.section img{
+    height:400px;
+    float: right;
+}
