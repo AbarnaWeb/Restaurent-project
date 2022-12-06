@@ -8,14 +8,17 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style/footer.css">
-    <link rel="stylesheet" href="chef.css">
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="style/chef.css">
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/gallery.css">
+    <link rel="stylesheet" href="style/menu.css">
+    <link rel="stylesheet" href="style/contact.css">
    
 </head>
 <body>
   
     <div class="top-bar">
-        <div class="contact-info">
+        <div class="contect-info">
             <i class="fa fa-mobile-phone" style="font-size:20px;color:black"><span style="color:black;font-size: 15px" >9626650161</sapn></i>
             <i class="fa fa-clock-o" style="font-size:20px;color:black"><span style="color: black;font-size: 15px">Mon-Sat: 11AM - 23PM</sapn></i>
         </div>
@@ -27,9 +30,9 @@
                
                     <li><a class="" href="#home">Home</a></li>
                     <li><a href="#s0">About</a></li>
-                    <li><a href="#s1">Chefs</a></li>
-                    <li><a href="gallery.php">Gallery</a></li>
-                    <li><a href="contact.php">Contact Us</a></li>
+                    <li><a href="#s1">Gallery</a></li>
+                    <li><a href="#s2">chefs</a></li>
+                    <li><a href="#s3">Contact Us</a></li>
                     <li><a href="login.php">Admin</a></li>
                     
                     
@@ -42,13 +45,15 @@
                 <p>Welcome to <span  style="color: red">Restaurantly</span><br></p>          
                 <!-- <h4>Delivering great food for more than 18 years!</h4>  -->
             </div>
-            <a href="menu.php"><button class="button">Our Menu</button></a>
+            <a href="#m1"><button class="button">Our Menu</button></a>
             <a href="table.php"><button class="button1">Book A Table</button></a>
         </section>
 
     </div>
 
+    
 
+ <!-- about page -->
 
  <section  id="s0">
     <div class="section">
@@ -68,23 +73,143 @@
                 <img src="image/about.jpg">
                 </p>
         </div>
-        <!-- <div class="copy">
-                ©2022 Copyright <span style="color:orange">Restaurantly </span>. All Rights Reserved -->
-                <!-- <h5>Designed by SelfMade</h5> -->
-                <!-- </div> -->
+        
     </div>
  </section>
 
 
+ <!-- <menu page> -->
 
+ <section id="m1">
+ <div class="wrapper">
+        <div class="title">
+            <h4><span> fresh food for good health</span> Our Menu</h4>
+        </div>
+        
+    
+        <div class="menu">
+            <div class="single-menu ">
+                <img src="image/lobster-bisque.jpg"  alt="" style="width:80px">
+                <div class="menu-content">
+                    <h4 >Lobster Bisque<span>$5.95</span></h4>
+                    <p>Lorem, deren, trataro, filede, nerada<p>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="image/bread-barrel.jpg" alt="" style="width:80px">
+                <div class="menu-content">
+                    <h4>Bread Barrel<span>$6.95</span></h4>
+                    <p>Lorem, deren, trataro, filede, nerada<p>
+                </div>
+          </div>
+        
+        
+          <div class="single-menu ">
+                <img src="image/cake.jpg"  alt="" style="width:80px">
+                <div class="menu-content">
+                    <h4>Crab Cake<span>$7.95</span></h5>
+                    <p>A delicate crab cake served on a toasted roll with lettuce and tartar sauce<p>
+                </div>
+          </div>
+
+          <div class=" single-menu ">
+                <img src="image/caesar.jpg" class="menu-img" alt="" style="width:80px">
+                <div class="menu-content">
+                    <h4>Caesar Selections<span>$8.95</span></h4>
+                    <p>Lorem, deren, trataro, filede, nerada</p>
+                </div>
+          </div>
+        
+        
+          <div class="single-menu">
+                <img src="image/tuscan-grilled.jpg" class="menu-img" alt="" style="width:80px">
+                <div class="menu-content">
+                <h4>Tuscan Grilled<span>$9.95</span></h4>
+                <p>Grilled chicken with provolone, artichoke hearts, and roasted red pesto</p>
+                </div>
+          </div>
+
+          <div class=" single-menu ">
+                <img src="image/mozzarella.jpg" class="menu-img" alt="" style="width:80px">
+                <div class="menu-content">
+                <h4>Mozzarella Stick<span>$4.95</span></h4>
+                <p>Lorem, deren, trataro, filede, nerada</p>
+                </div>
+            </div>
+        
+        
+          <div class="single-menu ">
+                <img src="image/greek-salad.jpg" class="menu-img" alt="" style="width:80px">
+                <div class="menu-content">
+                    <h4>Greek Salad<span>$9.95</span></h4>
+                    <p>Fresh spinach, crisp romaine, tomatoes, and Greek olives</p>
+                </div>
+          </div>
+
+          <div class="single-menu ">
+                <img src="image/spinach-salad.jpg" class="menu-img" alt="" style="width:80px">
+                <div class="menu-content">
+                    <h4>Spinach Salad<span>$9.95</span></h4>
+                    <p>Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette</p>
+                </div>
+          </div>
+        
+           <div class="single-menu">
+                <img src="image/lobster-roll.jpg" class="menu-img" alt="" style="width:80px">
+                <div class="menu-content">
+                    <h4>Lobster Roll<span>$12.95</span></h4>
+                    <p>Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll</p>
+                </div>
+          </div>
+    </div>
+
+ </section> 
+
+
+   <!-- gallery page  -->
  <section id="s1">
-    <div class="container">
+<div class="method">
+        <h1>Some photos from Our Restaurant</h1>
+    </div>
+    <div class="image">
+        <div class="column">
+            <img src="image/gallery-1.jpg"  style="width:100%">
+        </div>
+        <div class="column">
+            <img src="image/gallery-2.jpg"  style="width:100%">
+        </div>
+        <div class="column">
+            <img src="image/gallery-3.jpg"  style="width:100%">
+        </div>
+        <div class="column">
+            <img src="image/gallery-4.jpg"  style="width:100%">
+        </div>
+        <div class="column">
+            <img src="image/gallery-5.jpg"  style="width:100%">
+        </div>
+        <div class="column">
+            <img src="image/gallery-6.jpg"  style="width:100%">
+        </div>
+        <div class="column">
+            <img src="image/gallery-7.jpg"  style="width:100%">
+        </div>
+        <div class="column">
+            <img src="image/gallery-8.jpg"  style="width:100%">
+        </div>
+     
+</div>
+</section>
+
+<!-- chef page -->
+
+<section id="s2">
+<div class="contain">
     <div class="heading">
         <h1>Our Proffesional Chefs</h1>
     </div>
     <div class="image">
         <div class="column">
-            <img src="image/chefs-1.jpg"  style="width:100%">
+            <img src="image/chefs-1.jpg"  style="width:120%">
             <div class="information">
                <h4>Walter White</h4> 
                 <h5>Master Chef</h5> 
@@ -95,8 +220,8 @@
                 </div>
             </div>
         </div>
-        <div class="column">
-            <img src="image/chefs-2.jpg"  style="width:100%">
+        <div class="column" style="margin-left: 10%">
+            <img src="image/chefs-2.jpg"  style="width:120%">
             <div class="information">
                 <h4 style="margin-left:5%">Sarah Jhonson</h4>
                 <h5 style="margin-left:17%">Patissier</h5>
@@ -107,8 +232,8 @@
                 </div>    
             </div>
         </div>
-        <div class="column">
-            <img src="image/chefs-3.jpg"  style="width:100%">
+        <div class="column" style="margin-left: 10%">
+            <img src="image/chefs-3.jpg"  style="width:120%">
             <div class="information">
                 <h4>William Anderson</h4>
                 <h5 style="margin-left:29%">Cook</h5>
@@ -119,14 +244,72 @@
                 </div>    
             </div>
         </div>
-        </div>
     </div>
+</div>
+</section>
 
- </section>
-    <!-- <div>
+<!-- contact page -->
+
+<section id="s3">
+<div class="contact-section">
+        <div class="contact-info">
+            <div><i class="fa fa-map-marker"></i>Add, City, Country</div>
+            <div><i class="fa fa-envelope"></i>Contact@email.com</div>
+            <div><i class="fa fa-phone"></i>+00 0000 000 000</div>
+            <div><i class="fa fa-clock-o"></i>Mon-Sat: 11AM - 23PM</div>
+        </div>
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form class="contact" action="" method="post">
+                <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+                <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+                <input type="text" name="subject" class="text" placeholder="subject"  required>
+                <textarea name="message" rows="5" placeholder="Message" required></textarea>
+                <input type="submit" name="submit" class="send-btn" value="Send">
+                
+            </form>
+            <a href="index.php"><input type="submit" name="submit" class="back-btn" value="back" ></a>
+            
+        </div>
+        
+       
+
+        <?php
+        include_once('include/config.php');
+            if (isset($_POST['submit'])){
+                $name=$_POST['name'];
+                $email=$_POST['email'];
+                $subject=$_POST['subject'];
+                $add=$_POST['message'];
+
+                $sql="INSERT INTO contact(name,email,subject,message)
+                values('$name','$email','$subject','$add')";
+
+                $query=mysqli_query($con,$sql);
+
+                if($query){
+
+                    echo "<script>
+                    
+                    alert('We Will Meet Soon');
+                    
+                    </script>";
+                }
+                else{
+                    echo "Not Submited";
+                }
+            }
+        ?>
+
+    </div>
+</section>
+  
+   
+ 
     
+
         <footer class="footer">
-            <div class="container">
+            <div class="conteiner">
             <hr>
                 <div class="row">
                 
@@ -188,9 +371,8 @@
                 <h5>Designed by SelfMade</h5>
                 </div>
             </div>
-        </footer>
-    </div> -->
-    
+        </footer> 
+
                 
     
 </body>

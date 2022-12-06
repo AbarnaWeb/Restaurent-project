@@ -15,7 +15,7 @@
         /* font-family: "Poppins",sans-serif; */
     }
     body{
-        background-color: gray;
+        background-color: white;
         min-height: 100vh;
        
         background-size: cover;
@@ -90,7 +90,7 @@ li a:hover {
 
      .text-box{
         background: transparent;
-        color: #fff;
+        color: black;
         border: none;
         width: calc(30% - 10px);
         height: 50px;
@@ -110,7 +110,7 @@ li a:hover {
     }
     .text{
         background: transparent;
-        color: #fff;
+        color:black;
         border: none;
         width: calc(100% - 80px);
         height: 150px;
@@ -170,7 +170,7 @@ li a:hover {
     }
     .copy{
     text-align: center;
-    color: #ffffff;
+    color: black;
     padding-bottom: 0;
     padding-top: 55px;
 }
@@ -255,8 +255,7 @@ li a:hover {
 
 
         ?>
-    </div>
-
+        
         
 </body>
 </html>

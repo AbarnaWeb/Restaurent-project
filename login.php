@@ -4,7 +4,70 @@ session_start();
 
 include_once('include/config.php');
 
-if ($_SERVER['REQUEST_METHOD']=== 'POST'){
+if(isset($_POST['submit'])){
+
+    $name=$_POST['adminid'];
+    $password=$_POST['password'];
+
+    $sql=mysqli_query($con, "SELECT * FROM admin WHERE admin_id='$name' AND password1='$password' ");
+
+    $result= mysqli_fetch_array($sql);
+
+    if ( $result > 0){
+       
+
+        header("location:dashbord.php");
+    }
+    else{
+        echo "You Have Entered Incorrect Password";
+        exit();
+    }
+}
+
+
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/login.css">
+    <!-- <script src="script.js"></script> -->
+</head>
+<body>
+    <div class="login-popup">
+        <div class="box">
+            
+            <div class="form">
+                <div class="close">&times</div>
+                <h1>Log In</h1>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="adminid" placeholder="Enter Username" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password" placeholder="Enter Password" class="form-control" required>
+                    </div>
+                    <!-- <div class="form-group">
+                        <label><input type="checkbox">
+                            Remember Me
+                        </label>
+                    </div> -->
+                    <button class ="btn btn-primary" type="submit" name="submit">Login</button>  
+                    <!-- <button type="submit" value="login"  class="btn" onclick="validate()" >Log In</button> -->
+                </form>
+                
+        </div>
+    </div>
+    
+</body>
+</html>
+
+<!-- if ($_SERVER['REQUEST_METHOD']=== 'POST'){
     function validate ($str){
         return trim (htmlspecialchars($str));
     }
@@ -55,45 +118,4 @@ if($num > 0){
 }
 
 }
-}
-?>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style/login.css">
-    <!-- <script src="script.js"></script> -->
-</head>
-<body>
-    <div class="login-popup">
-        <div class="box">
-            
-            <div class="form">
-                <div class="close">&times</div>
-                <h1>Log In</h1>
-                <form action="" method="Post">
-                    <div class="form-group">
-                        <input type="text" name="adminid" placeholder="Enter Username" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="password" name="password" placeholder="Enter Password" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label><input type="checkbox">
-                            Remember Me
-                        </label>
-                    </div>
-                    <button class ="btn btn-primary" type="submit" name="login">Login</button>  
-                    <!-- <button type="submit" value="login"  class="btn" onclick="validate()" >Log In</button> -->
-                </form>
-                
-        </div>
-    </div>
-    
-</body>
-</html>
+} -->

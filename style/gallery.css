@@ -1,0 +1,17 @@
+h1{
+    color: #cda45e;
+    /* text-align: center; */
+    margin-left: 50px;
+    margin-top:50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size:30px;
+}
+.column {
+    float: left;
+    width: 23.33%;
+    /* padding: 3px; */
+    margin: 8px;
+    }
